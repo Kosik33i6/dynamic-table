@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-repeat: no-repeat;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+h1 {
+  width: 100%;
+  margin: 50px 0 0;
+}
+th,
+td,
+tb {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+}
+th {
+  text-transform: uppercase;
+}
